@@ -5,8 +5,20 @@
     padding-top: $xl + $navigation-height;
   }*/
 
+  &--main {
+    @media (min-width: $tablet) {
+      padding: 200px 0;
+    }
+  }
+
   &--pt-none {
     padding-top: 0;
+  }
+
+  &--pb-none-m {
+    @media (max-width: $tablet) {
+      padding-bottom: 0;
+    }
   }
 
   &--pb-xxl {

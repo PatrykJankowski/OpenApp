@@ -205,7 +205,6 @@
   position: relative;
 }
 
-
 .circle {
   width: 454px;
   height: 454px;
@@ -219,4 +218,11 @@
 
 .item {
   padding: 0 $s;
+}
+
+
+.mb-80-m {
+  @media (max-width: $tablet) {
+    margin-bottom: 80px;
+  }
 }
