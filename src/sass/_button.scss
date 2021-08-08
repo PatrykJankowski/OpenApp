@@ -1,0 +1,88 @@
+.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 52px;
+    min-width: 260px;
+    //border: 1px solid $border-white;
+    background: $white;
+    border-radius: 30px;
+    color: $text-color;
+    font-size: $text-size;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    transition: .5s all;
+
+    &--primary {
+        background: $primary;
+        color: #FFF;
+
+        &:hover {
+            background: $secondary;
+        }
+    }
+
+    &--secondary {
+        background: $secondary;
+        color: #FFF;
+
+        &:hover {
+            background: $primary;
+        }
+    }
+
+    &--outline {
+        background: none;
+        color: $white;
+        border: solid 1px $white;
+    }
+
+    &--download {
+        padding: 0 $s;
+
+        &:before {
+            display: block;
+            content: ' ';
+            background-image: url("img/download.svg");
+            background-size: 26px 26px;
+            height: 26px;
+            width: 26px;
+            margin-right: 5px;
+        }
+    }
+
+    &--download-white {
+        padding: 0 $s;
+
+        &:before {
+            display: block;
+            content: ' ';
+            background-image: url("img/download-white.svg");
+            background-size: 26px 26px;
+            height: 26px;
+            width: 26px;
+            margin-right: 5px;
+        }
+    }
+
+    &--arrow {
+        padding: 0 $s;
+
+        &:after {
+            display: block;
+            content: ' ';
+            background-image: url("img/arrow.svg");
+            background-size: 26px 26px;
+            height: 26px;
+            width: 26px;
+            position: relative;
+            left: 5px;
+            transition: .5s all;
+        }
+
+        &:hover:after {
+            left: 10px;
+        }
+    }
+}

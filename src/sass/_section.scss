@@ -1,0 +1,41 @@
+.section {
+  padding: $xl 0;
+
+/*  &--header {
+    padding-top: $xl + $navigation-height;
+  }*/
+
+  &--pt-none {
+    padding-top: 0;
+  }
+
+  &--pb-xxl {
+    padding-bottom: $xxl;
+  }
+
+  &--bg-primary {
+    background: $primary;
+    color: $white;
+  }
+
+  &--bg-secondary {
+    background: $secondary;
+    color: $white;
+  }
+
+  &--bg-tertiary {
+    background: $tertiary;
+    background: rgba(122,234,244,.8);
+    background: linear-gradient(0deg, rgba(255,255,255,.8) 0%, rgba(122,234,244,.8) 100%);
+  }
+
+  &--bg-photo {
+    background-image: url("img/bg-photo.webp");
+    background-size: cover;
+    height: 710px - 2 * #{$xl};
+
+    &--2 {
+      background-image: url("img/bg-photo2.webp");
+    }
+  }
+}

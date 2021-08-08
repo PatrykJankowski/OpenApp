@@ -1,0 +1,33 @@
+.footer {
+  padding: $xl 0 $l;
+  background: $black2;
+  @include font-size(16);
+
+  &__menu {
+    display: flex;
+    flex-direction: column;
+
+    @media (min-width: $tablet) {
+      flex-direction: row;
+    }
+  }
+
+  &__copyright {
+    margin-top: $xl;
+    color: $white;
+  }
+
+  a {
+    color: $white;
+    margin-right: $s;
+    margin-bottom: $s;
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+
+    @media (min-width: $tablet) {
+      margin-bottom: 0;
+    }
+  }
+}

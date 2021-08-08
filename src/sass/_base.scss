@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  @include font-size(20);
+  font-family: 'Galano Grotesque', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  line-height: 30px;
+}
+
+h1 {
+  font-size: $h1-size;
+  line-height: 80px;
+  margin: 0 0 $m 0;
+}
+
+h2 {
+  font-size: $h2-size;
+  margin: 0;
+}
+
+h3 {
+  font-size: $h3-size;
+  margin: 0;
+}
+
+h4 {
+  font-size: $h4-size;
+  margin: $s 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+img, svg {
+  max-width: 100%;
+  height: auto;
+}
+
+hr {
+  margin: $s 0;
+  width: 130px;
+  border: 0;
+  border-top: 1px solid $white;
+
+  &.dark {
+    border-color: $black;
+  }
+
+  &.grey {
+    border-color: #C4C4C4;
+  }
+
+  &.opacity {
+    opacity: .5;
+  }
+
+  &.opacity-2 {
+    opacity: .2;
+  }
+
+  &.mb-xl {
+    margin-bottom: $l;
+
+    @media (min-width: $desktop) {
+      margin-bottom: $xl;
+    }
+  }
+
+  &.nav {
+    margin: 0 15px 30px;
+    width: calc(100% - 30px);
+  }
+
+  &.w-100 {
+    width: 100%;
+    margin-top: -120px;
+    margin-bottom: 80px;
+  }
+
+  &.center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}

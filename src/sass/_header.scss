@@ -1,0 +1,25 @@
+.header {
+  background: $primary;
+  color: $white;
+
+  &__dsc {
+    @include font-size(24);
+    line-height: 32px;
+  }
+
+  &__hero {
+    display: flex;
+    height: auto;
+    width: 100%;
+  }
+
+  &__wrapper {
+    top: 140px;
+    margin-bottom: 80px;
+
+    @media (min-width: $desktop) {
+      top: 0;
+      margin-bottom: 0;
+    }
+  }
+}

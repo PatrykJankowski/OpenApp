@@ -1,0 +1,44 @@
+.accordion {
+  cursor: pointer;
+  padding: 20px 0;
+  width: 100%;
+  text-align: left;
+  outline: none;
+  transition: 0.4s;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #C4C4C4;
+  @include font-size(18);
+  font-weight: 700;
+}
+
+.accordion:after {
+  content: '';
+  float: right;
+  border: solid #000;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 6px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.active:after {
+  content: '';
+  border: solid #000;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 6px;
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.active, .accordion:hover {}
+
+.panel {
+  color: $text-color;
+  @include font-size(16);
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}

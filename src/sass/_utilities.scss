@@ -1,0 +1,222 @@
+.d-flex {
+  display: flex;
+}
+
+.flex-reverse {
+  flex-direction: row-reverse;
+}
+
+.mt-s {
+  margin-top: $s;
+}
+
+.mt-m {
+  margin-top: $m;
+}
+
+.center {
+  text-align: center;
+}
+
+.top-200 {
+  margin-top: -200px;
+}
+
+.h1-small {
+  font-size: $h2-size;
+  line-height: 54px;
+}
+
+.h1-big {
+  font-size: (182rem/16);
+  line-height: 111%;
+}
+
+/*.text-white {
+  color: $white;
+}*/
+
+.visually-hidden {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
+.image-cropper {
+  width: 434px;
+  max-width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 0 auto;
+
+  &--hero-furniture {
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: -8px;
+    width: 154px;
+
+    @media (min-width: $desktop) {
+      display: block;
+    }
+  }
+
+  &--hero-shoe {
+    position: absolute;
+    top: -110px;
+    left: 136px;
+    width: 194px;
+  }
+
+  &--hero-shoe2 {
+    position: absolute;
+    bottom: -10px;
+    right: 136px;
+    width: 112px;
+  }
+
+  &--hero-sphere1 {
+    position: absolute;
+    top: -70px;
+    left: 20px;
+    width: 80px;
+    opacity: .2;
+  }
+
+  &--hero-sphere2 {
+    position: absolute;
+    top: 160px;
+    right: 0;
+    width: 164px;
+    opacity: .2;
+  }
+
+  &--hero-sphere3 {
+    position: absolute;
+    top: -237px;
+    left: 0;
+    width: 234px;
+    opacity: .2;
+  }
+
+  &--hero-sphere4 {
+    position: absolute;
+    top: -78px;
+    right: 253px;
+    width: 150px;
+    opacity: .2;
+  }
+
+  &--hero-sphere5 {
+    position: absolute;
+    margin-left: 170px;
+    bottom: 100px;
+    width: 154px;
+    opacity: .2;
+  }
+
+  &--hero-sphere6 {
+    position: absolute;
+    top: 60px;
+    right: 100px;
+    width: 128px;
+    opacity: .2;
+  }
+
+  &--hero-sphere7 {
+    position: absolute;
+    bottom: 120px;
+    left: -40px;
+    width: 190px;
+    opacity: .2;
+  }
+
+  &--hero-sphere8 {
+    position: absolute;
+    bottom: 60px;
+    left: 140px;
+    width: 100px;
+    opacity: .2;
+  }
+
+  &--small {
+    width: 244px;
+    height: 244px;
+  }
+
+  &--bottom {
+    position: absolute;
+    bottom: -40px;
+    z-index: 1;
+  }
+}
+
+.gpay {
+  position: absolute;
+  bottom: 196px;
+  left: 30px;
+  width: 88px;
+}
+
+.inpost {
+  position: absolute;
+  top: 94px;
+  right: 89px;
+  width: 96px;
+}
+
+.apay {
+  position: absolute;
+  bottom: 100px;
+  left: 166px;
+  width: 48px;
+}
+
+@keyframes do-levitation {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(0, 0.5em);
+  }
+}
+
+.levitate {
+  animation: do-levitation 1.2s alternate ease-in-out infinite;
+}
+
+.levitate2 {
+  animation: do-levitation 3s alternate infinite;
+}
+
+.levitate3 {
+  animation: do-levitation 2s alternate infinite;
+}
+
+.position-relative {
+  position: relative;
+}
+
+
+.circle {
+  width: 454px;
+  height: 454px;
+  background: #FF5347;
+  border-radius: 50%;
+  position: absolute;
+  z-index: -1;
+  top: 170px;
+  left: -120px;
+}
+
+.item {
+  padding: 0 $s;
+}

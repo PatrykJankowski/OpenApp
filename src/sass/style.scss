@@ -1,0 +1,25 @@
+/*!
+Theme Name: Open App
+Theme URI: https://github.com/patrykjankowski/OpenApp
+Author: Patryk Jankowski – Softcraft
+Author URI: https://softcraft.it
+Description: Open App – Magicznie proste zakupy
+Version: 1.0.0
+Text Domain: Bez formularzy i wpisywania danych. Zamawiasz i płacisz w 10 sekund.
+*/
+
+@import "fonts";
+@import "variables";
+@import "base";
+@import "grid";
+
+@import "header";
+@import "forms";
+@import "section";
+@import "navigation";
+@import "button";
+@import "glide";
+@import "contact";
+@import "accordion";
+@import "footer";
+@import "utilities";
