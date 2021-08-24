@@ -93,7 +93,7 @@
     <div class="container">
         <div class="row flex-reverse">
             <div class="col-md-6 center position-relative">
-                <div class="image-cropper image-cropper--hero-sphere3">
+                <div class="image-cropper image-cropper--hero-sphere3 levitate3">
                     <img src="/wp-content/themes/openapp/img/sphere.webp" class="header__hero" width="234" height="234" alt="Bańka">
                 </div>
                 <div class="image-cropper image-cropper--hero-shoe2">
@@ -161,7 +161,7 @@
             <div class="col center position-relative">
                 <hr class="dark opacity-2 w-100">
                 <h2>Chcesz wiedzieć więcej?</h2>
-                <div class="image-cropper image-cropper--hero-sphere4">
+                <div class="image-cropper image-cropper--hero-sphere4 levitate">
                     <img src="/wp-content/themes/openapp/img/sphere.webp" class="header__hero" width="150" height="150" alt="Bańka">
                 </div>
                 <a href="jak-to-dziala" class="button button--primary mt-m">Zobacz jak to działa</a>

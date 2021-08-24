@@ -180,6 +180,10 @@
   width: 48px;
 }
 
+.text-wrapper {
+  max-width: 410px;
+}
+
 @keyframes do-levitation {
   0% {
     transform: translate(0, 0);

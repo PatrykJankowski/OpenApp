@@ -34,9 +34,11 @@
                 <img src="/wp-content/themes/openapp/img/bubble-or.webp" width="390px" height="390px" alt="Bańka Open Routing">
             </div>
             <div class="col-md-6">
-                <h3><?php echo get_field('abt_section_1_header') ?></h3>
-                <hr class="hr dark">
-                <p><?php echo get_field('abt_section_1_description') ?></p>
+                <div class="text-wrapper">
+                    <h3><?php echo get_field('abt_section_1_header') ?></h3>
+                    <hr class="hr dark">
+                    <p><?php echo get_field('abt_section_1_description') ?></p>
+                </div>
             </div>
         </div>
     </div>

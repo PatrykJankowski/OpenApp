@@ -5,8 +5,7 @@
   "main": "''",
   "dependencies": {
     "gulp-compile-handlebars": "^0.6.1",
-    "gulp-hb": "^8.0.0",
-    "npm": "^7.15.1"
+    "npm": "^7.20.6"
   },
   "devDependencies": {
     "gulp": "^4.0.2",
@@ -14,11 +13,11 @@
     "gulp-connect": "^5.7.0",
     "gulp-htmlmin": "^5.0.1",
     "gulp-image": "^6.2.1",
-    "gulp-image-resize": "^0.13.1",
-    "gulp-sass": "^4.1.0",
+    "gulp-sass": "^5.0.0",
     "gulp-uglify-es": "^2.0.0",
     "gulp-watch": "^5.0.1",
-    "gulp-webp": "^4.0.1"
+    "gulp-webp": "^4.0.1",
+    "node-sass": "^6.0.1"
   },
   "scripts": {},
   "repository": {
